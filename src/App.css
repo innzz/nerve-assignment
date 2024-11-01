@@ -1,0 +1,41 @@
+.container {
+  max-width: 660px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100%;
+  gap: 25px;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.empty-strategies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20%;
+}
+
+.empty-strategies > p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.empty-strategies > p:nth-child(1) {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+.empty-strategies > p:nth-child(2) {
+  font-size: 20px;
+  font-weight: 600;
+}
